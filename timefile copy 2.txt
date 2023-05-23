@@ -1,0 +1,21 @@
+
+-------------------------------------------------------------
+01/05/2023 18:45:51 Phillip : Start browser and open BBB URL
+01/05/2023 18:45:54 Phillip : Click on namefield
+01/05/2023 18:45:56 Phillip : Write name into namefield
+01/05/2023 18:46:37 Phillip : Click on join button
+01/05/2023 18:46:40 Phillip : Click on join with mic
+01/05/2023 18:46:43 Phillip : Click on confirm working audio
+01/05/2023 18:47:18 Phillip : Start Write in Chat
+01/05/2023 18:47:19 Phillip : Send "Hey" in Chat
+01/05/2023 18:47:19 Phillip : Start Write in Chat
+01/05/2023 18:47:25 Phillip : Send "Der Sinn des Lebens ist 42." in Chat
+01/05/2023 18:51:46 Phillip : Start audio
+01/05/2023 18:51:46 Phillip : Press start Video
+01/05/2023 18:51:52 Phillip : Start Video
+01/05/2023 18:53:54 Phillip : Stop audio
+01/05/2023 18:53:54 Phillip : Stop video
+01/05/2023 18:54:46 Phillip : Press start screen sharing
+01/05/2023 18:54:50 Phillip : Start screen sharing
+01/05/2023 18:55:02 Phillip : Stop screen sharing
+01/05/2023 18:55:23 Phillip : Shutdown firefox window
