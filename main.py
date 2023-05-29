@@ -11,14 +11,19 @@ users = {
 }
 
 if __name__ == "__main__":
+    # Expect the first argument to be the user id
+    if len(sys.argv) < 2:
+        print("Please provide a user id")
+        exit(1)
+
     # Load the action script
     with open('config.json', 'r') as file:
         actions = json.load(file)
 
-    # Execute the actions
+    # Execute the actions for the specified user only
     for action in actions:
         user_id = action["id"]
-        user = users[user_id]
-        script = ActionScript(user, action)
-        script.perform()
-
+        if user_id == sys.argv[1]:   # Add this condition
+            user = users[user_id]
+            script = ActionScript(user, action)
+            script.perform()

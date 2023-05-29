@@ -225,5 +225,5 @@ class AutomatedPerson(DesktopBot):
                   "comment_entering_field", "comment_entering_field2"]
 
         for image in images:
-            self.add_image(image, f"images/{image}_mac.png")
+            self.add_image(image, f"images/{image}.png")
         

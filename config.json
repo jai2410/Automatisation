@@ -1,6 +1,14 @@
 [
-    {"id": "1", "action": "open_bbb", "timestamp": 0},
-    {"id": "1", "action": "enter_name", "timestamp": 10000},
-    {"id": "2", "action": "open_bbb", "timestamp": 20000},
-    {"id": "2", "action": "enter_name", "timestamp": 30000}
+    {"timestamp": 10000, "id": "1", "action": "open_bbb"},
+    {"timestamp": 20000, "id": "1", "action": "enter_name"},
+    {"timestamp": 35000, "id": "1", "action": "join_bbb"},
+    {"timestamp": 50000, "id": "1", "action": "write_in_chat", "message": "Hey"},
+    {"timestamp": 65000, "id": "1", "action": "write_in_chat", "message": "The meaning of life is 42."},
+    {"timestamp": 185000, "id": "1", "action": "start_audio"},
+    {"timestamp": 305000, "id": "1", "action": "start_video"},
+    {"timestamp": 425000, "id": "1", "action": "stop_audio"},
+    {"timestamp": 450000, "id": "1", "action": "stop_video"},
+    {"timestamp": 461000, "id": "1", "action": "start_screen_sharing"},
+    {"timestamp": 577600, "id": "1", "action": "stop_screen_sharing"},
+    {"timestamp": 582600, "id": "1", "action": "close_window"}
 ]

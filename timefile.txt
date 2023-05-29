@@ -1,0 +1,111 @@
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+05/29/2023 20:38:03 Jane : Start browser and open BBB URL
+05/29/2023 20:38:07 Jane : Click on namefield
+05/29/2023 20:38:09 Jane : Write name into namefield
+
+-------------------------------------------------------------
+05/29/2023 20:37:56 Phillip : Start browser and open BBB URL
+05/29/2023 20:38:01 Phillip : Click on namefield
+05/29/2023 20:38:03 Phillip : Write name into namefield
+
+-------------------------------------------------------------
+05/29/2023 20:44:34 Phillip : Start browser and open BBB URL
+05/29/2023 20:44:39 Phillip : Click on namefield
+05/29/2023 20:44:40 Phillip : Write name into namefield
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+05/30/2023 00:36:09 Phillip : Start browser and open BBB URL
+05/30/2023 00:36:14 Phillip : Click on namefield
+05/30/2023 00:36:16 Phillip : Write name into namefield
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+05/30/2023 00:36:31 Phillip : Start browser and open BBB URL
+05/30/2023 00:36:36 Phillip : Click on namefield
+05/30/2023 00:36:38 Phillip : Write name into namefield
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+05/30/2023 00:37:24 Phillip : Start browser and open BBB URL
+05/30/2023 00:37:29 Phillip : Click on namefield
+05/30/2023 00:37:30 Phillip : Write name into namefield
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+05/30/2023 00:38:46 Phillip : Start browser and open BBB URL
+05/30/2023 00:38:51 Phillip : Click on namefield
+05/30/2023 00:38:53 Phillip : Write name into namefield
+05/30/2023 00:38:57 Phillip : Click on join button
+05/30/2023 00:39:02 Phillip : Click on join with mic
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+05/30/2023 00:41:46 Phillip : Start browser and open BBB URL
+05/30/2023 00:41:51 Phillip : Click on namefield
+05/30/2023 00:41:53 Phillip : Write name into namefield
+05/30/2023 00:41:56 Phillip : Click on join button
+05/30/2023 00:42:02 Phillip : Click on join with mic
+05/30/2023 00:42:11 Phillip : Click on confirm working audio
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+05/30/2023 00:45:06 Phillip : Start browser and open BBB URL
+05/30/2023 00:45:11 Phillip : Click on namefield
+05/30/2023 00:45:13 Phillip : Write name into namefield
+05/30/2023 00:45:16 Phillip : Click on join button
+05/30/2023 00:45:22 Phillip : Click on join with mic
+05/30/2023 00:45:31 Phillip : Click on confirm working audio
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+05/30/2023 00:46:49 Phillip : Start browser and open BBB URL
+05/30/2023 00:46:54 Phillip : Click on namefield
+05/30/2023 00:46:56 Phillip : Write name into namefield
+05/30/2023 00:47:00 Phillip : Click on join button
+05/30/2023 00:47:05 Phillip : Click on join with mic
+05/30/2023 00:47:14 Phillip : Click on confirm working audio
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+05/30/2023 00:49:04 Phillip : Start browser and open BBB URL
+05/30/2023 00:49:09 Phillip : Click on namefield
+05/30/2023 00:49:11 Phillip : Write name into namefield
+05/30/2023 00:49:14 Phillip : Click on join button
+05/30/2023 00:49:20 Phillip : Click on join with mic
+05/30/2023 00:49:29 Phillip : Click on confirm working audio
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+05/30/2023 00:50:36 Phillip : Start browser and open BBB URL
+05/30/2023 00:50:40 Phillip : Click on namefield
+05/30/2023 00:50:42 Phillip : Write name into namefield
+05/30/2023 00:50:46 Phillip : Click on join button
+05/30/2023 00:50:52 Phillip : Click on join with mic
+05/30/2023 00:51:01 Phillip : Click on confirm working audio
+
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+05/30/2023 00:54:01 Phillip : Start browser and open BBB URL
+05/30/2023 00:54:06 Phillip : Click on namefield
+05/30/2023 00:54:08 Phillip : Write name into namefield
+05/30/2023 00:54:11 Phillip : Click on join button
+05/30/2023 00:54:17 Phillip : Click on join with mic
+05/30/2023 00:54:26 Phillip : Click on confirm working audio
+
+-------------------------------------------------------------
