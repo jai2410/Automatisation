@@ -1,30 +1,25 @@
 from botcity.core import DesktopBot
 from time import strftime
+from file_operations import write_time_in_file
 
 class AutomatedPerson(DesktopBot):
     
-    def __init__(self, name : str, number : int, max_number = 3, action_script=None):
+    def __init__(self, name : str, number : int, max_number = 3):
         super().__init__()
         self.name = name
-        self.__add_all_images()
         self.file = open("timefile.txt", "a")
         #set the number to one lower (first person dont have to wait)
         self.number = number - 1
         self.max_number = max_number - 1
         self.file.write("\n-------------------------------------------------------------\n")
-        self.action_script = action_script
+        self.__add_all_images()
 
     def __del__(self):
-        self.file.close()
+        if not self.file.closed:
+            self.file.close()
 
-    def write_time_in_file(self, message, file=None, name=None):
-        if name is None:
-            name = self.name
-        if file is None:
-            file = self.file
-        new_message = strftime("%m/%d/%Y %H:%M:%S") + " " + name + " : " + message + "\n"
-        file.write(new_message)
-        print(new_message)
+    def write_time_in_file(self, message):
+        write_time_in_file(self.file, self.name, message)
     
     def open_bbb(self):
         """waits 3 seconds after starting"""
@@ -220,33 +215,15 @@ class AutomatedPerson(DesktopBot):
         self.write_time_in_file("Shutdown firefox window")
 
     def __add_all_images(self):
-        self.add_image("name_entering_field", "images/name_entering_field_mac.png")
-        self.add_image("join_meeting_button", "images/join_meeting_button.png")
-        self.add_image("join_meeting_button2", "images/join_meeting_button2.png")
-        self.add_image("join_meeting_button3", "images/join_meeting_button3.png")
-        self.add_image("join_with_micro_button", "images/join_with_micro_button.png")
-        self.add_image("join_with_micro_button2", "images/join_with_micro_button2.png")
-        self.add_image("confirm_micro_working_button", "images/confirm_micro_working_button.png")
-        self.add_image("change_audio_settings", "images/change_audio_settings.png")
-        self.add_image("set_audio_to_cable_output", "images/set_audio_to_cable_output.png")
-        self.add_image("start_audio_button", "images/start_audio_button.png")
-        self.add_image("stop_audio_button", "images/stop_audio_button.png")
+        images = ["name_entering_field", "join_meeting_button", "join_meeting_button2",
+                  "join_meeting_button3", "join_with_micro_button", "join_with_micro_button2",
+                  "confirm_micro_working_button", "change_audio_settings", "set_audio_to_cable_output",
+                  "start_audio_button", "stop_audio_button", "start_video_button", "stop_video_button",
+                  "stop_video_button2", "change_video_settings", "set_video_to_obs_camera",
+                  "start_access", "start_screen_sharing", "stop_screen_sharing", "options_button",
+                  "become_presenter", "set_screen_setting", "set_screen", "allow_sharing",
+                  "comment_entering_field", "comment_entering_field2"]
 
-        self.add_image("start_video_button", "images/start_video_button.png")
-        self.add_image("stop_video_button", "images/stop_video_button.png")
-        self.add_image("stop_video_button2", "images/stop_video_button2.png")
-        self.add_image("change_video_settings", "images/change_video_settings.png")
-        self.add_image("set_video_to_obs_camera", "images/set_video_to_obs_camera.png")
-        self.add_image("start_access", "images/start_access.png")
-
-        self.add_image("start_screen_sharing", "images/start_screen_sharing.png")
-        self.add_image("stop_screen_sharing", "images/stop_screen_sharing.png")
-        self.add_image("options_button", "images/options_button.png")
-        self.add_image("become_presenter", "images/become_presenter.png")
-        self.add_image("set_screen_setting", "images/set_screen_setting.png")
-        self.add_image("set_screen", "images/set_screen.png")
-        self.add_image("allow_sharing", "images/allow_sharing.png")
-
-        self.add_image("comment_entering_field", "images/comment_entering_field.png")
-        self.add_image("comment_entering_field2", "images/comment_entering_field2.png")
+        for image in images:
+            self.add_image(image, f"images/{image}_mac.png")
         

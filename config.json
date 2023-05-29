@@ -1,0 +1,6 @@
+[
+    {"id": "1", "action": "open_bbb", "timestamp": 0},
+    {"id": "1", "action": "enter_name", "timestamp": 10000},
+    {"id": "2", "action": "open_bbb", "timestamp": 20000},
+    {"id": "2", "action": "enter_name", "timestamp": 30000}
+]
