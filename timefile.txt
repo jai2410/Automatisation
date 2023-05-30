@@ -109,3 +109,11 @@
 05/30/2023 00:54:26 Phillip : Click on confirm working audio
 
 -------------------------------------------------------------
+
+-------------------------------------------------------------
+05/30/2023 01:05:00 Phillip : Start browser and open BBB URL
+05/30/2023 01:05:04 Phillip : Click on namefield
+05/30/2023 01:05:06 Phillip : Write name into namefield
+05/30/2023 01:05:10 Phillip : Click on join button
+
+-------------------------------------------------------------
